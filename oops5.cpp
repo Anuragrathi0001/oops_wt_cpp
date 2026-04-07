@@ -15,4 +15,9 @@ class Student{
 int main(){
     Student s(123, "Anurag");
     s.disp(s);
+    int x = 4;
+    cout << &x << endl;
+    int*p=&x;
+    cout << p << endl;
+    cout << *p << endl;
 }
